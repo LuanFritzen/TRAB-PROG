@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #9bdd81;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #9bdd81;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
